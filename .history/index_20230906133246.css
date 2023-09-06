@@ -38,65 +38,37 @@
 }
 
 .container .comment {
-  display: flex;
-}
-.container .comment .left-box,
-.container .comment .right-box {
-  width: 50%;
-}
-.left-box {
-}
-ul{
-    
-}
-.container .comment .box {
-  padding: 48px;
+background-color: red;
+
+  border-radius: 6px 0px 0px 0px;
   border: 1px solid #f3d1bf;
+  background: #fff;
   box-shadow: 0px 32px 64px 0px rgba(57, 20, 0, 0.04);
 }
-.container .comment .left-box .box:first-child{
-    background-color: white;
+.container .comment .left-box{
+    width: ;
 }
-.container .comment .box .star-img {
-  margin-bottom: 36px;
+.container .comment .box-1 p {
+  width: 490px;
+  height: 128px;
+}
+.user {
+  display: flex;
 }
 
-.container .comment .box p {
+.container .comment .first-box .box-1 p {
   color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
   font-feature-settings: "clig" off, "liga" off;
+
+  /* Text */
   font-family: Epilogue;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
-}
-.container .comment .box .user {
-  margin-top: 36px;
-  display: flex;
-  align-items: center;
+  line-height: 32px; /* 200% */
 }
 
-.container .comment .box .user img {
-  width: 80px;
-  height: 80px;
-  margin-right: 24px;
-  border-radius: 50%;
-}
-.container .comment .box .user .user-info h3 {
-  color: var(--Text_Dark, #391400);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Epilogue;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 32px;
-}
-.container .comment .box .user .user-info p {
-  color: var(--Text_Dark, #391400);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Epilogue;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
+.nt2-box {
+  border-radius: 0px 0px 6px 6px;
+  border: 1px solid #f3d1bf;
 }

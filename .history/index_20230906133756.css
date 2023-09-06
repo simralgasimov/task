@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #fdf0e9;
+  padding: 124px 134px 108px 135px;
+}
+
+.container h1 {
+  color: var(--Text_Dark_Accent, #ef6d58);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.container h2 {
+  margin-top: 20px;
+  color: var(--Text_Dark, #391400);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+
+.container .comment {
+background-color: red;
+
+  border-radius: 6px 0px 0px 0px;
+  border: 1px solid #f3d1bf;
+  box-shadow: 0px 32px 64px 0px rgba(57, 20, 0, 0.04);
+}
+.container .comment .left-box,
+.container .comment .right-box{
+    width: 50%;
+    height: 500px;
+}
+.left-box{
+    background-color: green;
+}
+.container .comment .box{
+    padding: 48px;
+}
+
+.user {
+  display: flex;
+  
+}
+
+.container .comment  .box p {
+  color: var(--Text_Dark_Gray, rgba(57, 20, 0, 0.64));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; 
+}
+
